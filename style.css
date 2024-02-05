@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 60px 300px auto auto;
+}
+.header{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+}
+
+.cards-container div{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow:  10px 10px 15px #000,
+             -10px -10px 60px #fff;
+    background-image: url('https://images.hungama.com/c/1/988/fa1/31709682/31709682_300x300.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: -150px;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.progress-bar{
+    width: 250px;
+    height: 4px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+
+
+
